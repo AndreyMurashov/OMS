@@ -1,0 +1,26 @@
+.header {
+  grid-area: header;
+  text-align: center;
+  background-color: rgba(87, 156, 177, 0.892);
+  min-height: 80px;
+  padding: 0;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  display: block;
+  text-decoration: none;
+  color: rgb(7, 6, 92);
+  font-size: 36px;
+  font-weight: 600;
+  margin: 10px auto 0 10px;
+  align-items: center;
+}
+
+.header__logo {
+  margin: 0 0 0 auto;
+  width: 175px;
+  height: 100%;
+}

@@ -1,0 +1,68 @@
+.leftNavBar {
+  grid-area: leftNavBar;
+  padding: 5px;
+  hyphens: auto;
+}
+
+.leftNavBar__chart {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  border-bottom: 1px dotted red;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.leftNavBar__link {
+  display: block;
+  //border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: rgba(87, 156, 177, 0.892) 1px 1px 1px 1px;
+  padding: 5px;
+  color: rgb(7, 6, 92);
+  font-size: 13px;
+  margin-top: 5px;
+  list-style-type: none;
+}
+
+.leftNavBar__link:hover {
+  color: red;
+}
+
+.leftNavBar__title {
+  font-size: 19px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.leftNavBar__FZ {
+  display: none;
+}
+
+.leftNavBar__FZ_open {
+  display: block;
+}
+
+.leftNavBar__PP {
+  display: none;
+}
+
+.leftNavBar__PP_open {
+  display: block;
+}
+.leftNavBar__PM {
+  display: none;
+}
+
+.leftNavBar__PM_open {
+  display: block;
+}
+.leftNavBar__FF {
+  display: none;
+}
+
+.leftNavBar__FF_open {
+  display: block;
+}
